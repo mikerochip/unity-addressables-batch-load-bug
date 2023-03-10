@@ -1,5 +1,6 @@
 Repro Steps:
 
+1. Make sure you have Unity 2022.1.21f1 installed
 1. Open the Unity project `AddressablesBatchLoadBug`
 1. Open the scene `SampleScene`
 1. Press play to enter play mode
