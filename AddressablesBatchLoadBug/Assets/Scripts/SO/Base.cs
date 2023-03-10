@@ -1,7 +1,10 @@
 using System;
 using UnityEngine;
 
-public abstract class Base : ScriptableObject
+namespace SO
 {
-    public string Id = Guid.NewGuid().ToString();
+    public abstract class Base : ScriptableObject
+    {
+        public string Id = Guid.NewGuid().ToString();
+    }
 }
