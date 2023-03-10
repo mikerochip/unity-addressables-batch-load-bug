@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: ea295384aaebb4f09bfbc91ff3d40107
+  m_CachedHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 0
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 3
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 
+  m_RemoteCatalogLoadPath:
+    m_Id: 
+  m_ContentStateBuildPathProfileVariableName: 
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: e5f738857d8c94c5991ffd1a8ed3654d, type: 2}
+  - {fileID: 11400000, guid: c58692063a64d401b8cd60702842fd92, type: 2}
+  - {fileID: 11400000, guid: 18c53d93ae2524ed5ad753504d615300, type: 2}
+  - {fileID: 11400000, guid: 2f663f35c54354c5fad6064b69e4b7eb, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 2bb00e3a6b8464e0786838ec3db3e689
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 02c392804442f44d285ba5913ebb3b94
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: ec13e66970f4d48b2b97dff4c882666b
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: cefb0b1972eb8433a9a5dce2f3c2d2fd
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: cdfeeb548e1d54fa5afcac5618615918
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: a19fe6b74b6f0403a9c187f640f531d0
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+    m_ProfileEntryNames:
+    - m_Id: 02c392804442f44d285ba5913ebb3b94
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: ec13e66970f4d48b2b97dff4c882666b
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: cefb0b1972eb8433a9a5dce2f3c2d2fd
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: cdfeeb548e1d54fa5afcac5618615918
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: a19fe6b74b6f0403a9c187f640f531d0
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - Set1
+    - Set2
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: bd5b5a102064c41728d1e53ff8c5487b, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: a2f29a317f1814cb892dc655e4dbc735, type: 2}
+  - {fileID: 11400000, guid: f6f6b6acf660c4d5698856ff2eb6820f, type: 2}
+  - {fileID: 11400000, guid: 045e901b4d87349a1b300a13d1d0f49b, type: 2}
+  - {fileID: 11400000, guid: 292e1c5c4bfc54a0ab0daeeeb06621f5, type: 2}
+  m_ActiveProfileId: 2bb00e3a6b8464e0786838ec3db3e689
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []
