@@ -22,6 +22,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Set2
+    - Base
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 17b7e1ff97ffd48ea836dd982c121a52, type: 2}

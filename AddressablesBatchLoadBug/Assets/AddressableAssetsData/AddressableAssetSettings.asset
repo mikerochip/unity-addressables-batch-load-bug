@@ -89,6 +89,7 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - Base
     - Set1
     - Set2
   m_SchemaTemplates: []
