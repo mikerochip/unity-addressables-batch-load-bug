@@ -10,10 +10,16 @@ namespace Loading
         
         private void Awake()
         {
-            var op = Addressables.LoadAssetsAsync<Base>(Label.labelString, null, Addressables.MergeMode.Union);
-            op.Completed += handle =>
+            var assetsOp = Addressables.LoadAssetsAsync<Base>(Label.labelString, null, Addressables.MergeMode.Union);
+            assetsOp.Completed += handle =>
             {
-                Debug.Log($"Load Step=Completed|Status={handle.Status}");
+                Debug.Log($"Load Op=LoadAssets|Step=Completed|Status={handle.Status}");
+            };
+
+            var locationsOp = Addressables.LoadResourceLocationsAsync(Label.labelString);
+            locationsOp.Completed += handle =>
+            {
+                Debug.Log($"Load Op=LoadLocations|Step=Completed|Status={handle.Status}");
             };
         }
     }
